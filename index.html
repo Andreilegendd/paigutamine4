@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paigutamine 4</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      nav {
+        background-color: #4880b4;
+        border-radius: 30px;
+      }
+ 
+      header {
+        background-color: #435b51;
+        border-radius: 30px;
+        padding: 1rem;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+      }
+ 
+      main {
+        display: flex;
+        background-color: #19d9df;
+        padding: 1rem;
+        margin: 20px 10px;
+        border-radius: 30px;
+      }
+ 
+      main > article {
+        order: 2;
+        min-width: 12em;
+        flex: 1;
+        margin: 20px 10px;
+        background-color: #f181a3;
+        padding: 1rem;
+        border-radius: 30px;
+      }
+ 
+      main > aside {
+        order: 3;
+        width: 200px;
+        margin: 20px;
+        background-color: #f181e2;
+        padding: 1rem;
+        border-radius: 30px;
+      }
+ 
+      article {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+ 
+      article > section {
+        margin-right: 10px;
+        margin-left: 10px;
+        flex: auto;
+        background-color: #3bca72;
+        padding: 10px;
+        border-radius: 10px;
+        height: 20px;
+        text-align: center;
+      }
+ 
+      footer {
+        background-color: rgba(43, 163, 219, 0.582);
+        color: rgb(192, 13, 13);
+        padding: 1rem;
+        margin: 20px 10px;
+        border-radius: 30px;
+        text-align: center;
+      }
+ 
+      form {
+        text-align: center;
+      }
+ 
+      .button {
+        margin: 20px;
+      }
+
+      main > article {
+        width: 60%;
+      }
+
+      main > aside {
+        width: 30%;
+      }
+
+    </style>
+  </head>
+ 
+  <body>
+    <header>
+      <p>yes i'm the real shady</p>
+      <nav>
+        <ul>
+          <li>item 1</li>
+          <li>menüülink 2</li>
+          <li>menüülink 4</li>
+          <ul>
+            <li>item 1</li>
+            <li>menüülink 2</li>
+            <li>menüülink 4</li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+    <br/>
+    <main>
+      <article>
+        <div>
+          <section>
+            <h2>Sisuosa</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, sunt voluptate? Ad, reprehenderit doloribus commodi iste, dignissimos aut eveniet nesciunt molestias perspiciatis voluptas, modi provident pariatur exercitationem laboriosam molestiae cumque!
+            </p>
+            <a
+              accesskey="k"
+              href="https://www.w3schools.com/css/css3_flexbox_items.asp"
+              >negri hihaihaha</a
+            >
+          </section>
+        </div>
+      </article>
+ 
+      <aside contenteditable="true" draggable="true">
+        <h3 dir="rtl">Sidebar</h3>
+ 
+        <p autocapitalize="characters">
+            fdahsfkhdjlkfhadslkjafhasdfdahsfkhdjlkfhadslkjafhfdahsfkhdjlkfhadslkjafhfdahsfkhdjlkfhadslkjafh
+        </p>
+ 
+        <form action="">
+          <input type="text" enterkeyhint="enter" placeholder="Name" />
+          <input type="email" autofocus placeholder="email@" />
+          <input type="password" placeholder="psw" spellcheck="true" />
+          <input type="number" placeholder="number" />
+          <input type="tel" placeholder="tel" />
+          <input type="url" placeholder="link" />
+          <button class="button">Button</button>
+        </form>
+      </aside>
+    </main>
+ 
+    <article>
+      <section>tulp 1</section>
+      <section>tulp 2</section>
+      <section>tulp 3</section>
+    </article>
+    <footer>footer</footer>
+  </body>
+</html>
